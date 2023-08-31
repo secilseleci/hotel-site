@@ -1,0 +1,160 @@
+/* 
+    #007bff
+    #6c757d
+    #28a745
+    #dc3545
+    #ffc107
+    #17a2b8
+    #343a40
+    #f8f9fa
+*/
+:root {
+  --white: #fff;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --danger: #dc3545;
+  --warning: #ffc107;
+  --info: #17a2b8;
+  --dark: #343a40;
+  --light: #f8f9fa;
+}
+
+/* text-color */
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-success {
+  color: var(--success);
+}
+.text-danger {
+  color: var(--danger);
+}
+.text-warning {
+  color: var(--warning);
+}
+.text-info {
+  color: var(--info);
+}
+.text-light {
+  color: var(--light);
+}
+.text-dark {
+  color: var(--dark);
+}
+
+/* bg-colors */
+
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-success {
+  background-color: var(--success);
+}
+.bg-info {
+  background-color: var(--info);
+}
+.bg-warning {
+  background-color: var(--warning);
+}
+.bg-danger {
+  background-color: var(--danger);
+}
+.bg-light {
+  background-color: var(--light);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
+
+/* button */
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+.btn-success {
+  background-color: var(--success);
+  color: white;
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.btn-warning {
+  background-color: var(--warning);
+  color: white;
+}
+
+.btn-dark {
+  background-color: var(--dark);
+  color: white;
+}
+
+.btn-light {
+  background-color: var(--light);
+  color: white;
+}
+
+.btn-outline-primary {
+  color: var(--dark);
+  border: 1px solid var(--primary);
+  background: transparent;
+}
+
+.btn-outline-primary:hover {
+  color: var(--dark);
+  border: 1px solid var(--primary);
+  background: var(--primary);
+}
+.btn-outline-primary:hover {
+  color: var(--warning);
+  border: 1px solid var(--primary);
+  background: var(--primary);
+}
+
+/* flex-items  */
+.icons {
+  display: flex;
+  text-align: center;
+  height: 100%;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .icons {
+    display: flex;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+}
